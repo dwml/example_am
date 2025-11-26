@@ -24,14 +24,9 @@ class _Subject(BaseModel):
     overall_stress: int = Field(validation_alias="overall.stress")
     stressors: int
     impact_of_prior_traumatic_events: int = Field(validation_alias="impact.of.prior.traumatic.events")
-    time_after_sun: int = Field(validation_alias="Time_ED_minaftersun")
     age_at_admission_to_emergency_department: int = Field(validation_alias="Age.at.ED")
-    nonopioid_anaesthics: int = Field(validation_alias="nonopioid.anaesthics")
     amnesia: int
-    nonopiate_analgesics: int = Field(validation_alias="nonopiate.analgesics")
-    opiate: int
     prior_traumatic_events: int = Field(validation_alias="prior.traumatic.events")
-    heart_rate: int = Field(validation_alias="heart.rate")
     LEC5_total: int
 
     # Use field validator to validate the entries in certain fields
