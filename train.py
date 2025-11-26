@@ -25,7 +25,7 @@ def main():
     # Save best model 
     best_model = clf.best_estimator_
     with open(model_path, "wb") as f:
-        pickle.dump(clf,f)
+        pickle.dump(best_model,f)
 
 
 if __name__ == "__main__":
