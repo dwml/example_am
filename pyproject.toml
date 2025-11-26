@@ -9,4 +9,5 @@ dependencies = [
     "pandera>=0.27.0",
     "pydantic>=2.12.4",
     "pyreadstat>=1.3.2",
+    "scikit-learn>=1.7.2",
 ]
